@@ -337,11 +337,6 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.icon-list {
-  display:flex;
-  justify-content: center;
-  gap: 24px;
-}
 
 /* Section 4 */
 

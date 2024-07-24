@@ -443,6 +443,8 @@ width: calc((100% - 72px) / 4);
 }
 
 .p-container {
+  display: flex;
+  align-items: baseline;
   max-width: 264px;
 }
 

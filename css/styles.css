@@ -141,6 +141,8 @@ ul {
 .menu-items,
 .link {
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
 }
 
 .contact-box {
@@ -163,8 +165,8 @@ ul {
   color: var(--navy-blue);
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-box:hover,
+.header-box:focus {
   color: var(--ocean);
 }
 
@@ -202,6 +204,11 @@ address {
   top: 72px;
   background-color: var(--navy-blue);
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desk-people.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title-box {
@@ -232,6 +239,7 @@ address {
   height: 56px;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,

@@ -338,6 +338,12 @@ width: calc((100% - 72px) / 4);
   color: var(--slate);
 }
 
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
 /* Section 4 */
 
 .portfolio-title {

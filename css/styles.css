@@ -388,7 +388,6 @@ fill: #f4f4fd;
     row-gap: 48px;
     column-gap: 24px;
     flex-wrap: wrap;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-container-width {
@@ -472,11 +471,13 @@ fill: #f4f4fd;
 }
 
 .p-container {
-  display: flex;
-  align-items: baseline;
   max-width: 264px;
 }
 
 .design-logo {
   color: var(--cloud);
+}
+.container {
+display: flex;
+align-items: baseline;
 }

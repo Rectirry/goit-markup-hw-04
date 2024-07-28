@@ -12,14 +12,11 @@ html {
   box-sizing: border-box;
 }
 *,
-*::after{
-  content: "";
-  
-}
-
+*::after,
 *::before {
   box-sizing: inherit;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -73,16 +70,17 @@ p {
 ul {
   margin: 0;
   list-style-type: none;
+  padding: 0;
 }
 
 img {
-  max-width: 100%;
+  display: block;
 }
 
 body {
-  font-family: var(--font-family);
-  background-color: var(--white);
-  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 a {
@@ -94,10 +92,9 @@ ul {
 }
 
 .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  display: flex;
 }
+
 .section {
   margin: 120px 0 120px 0;
 }

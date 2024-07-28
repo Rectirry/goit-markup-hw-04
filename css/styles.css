@@ -300,6 +300,7 @@ button:active {
 
 /* Section 2 */
 
+
 .benefits-page{
   padding: 120px 0;
 }
@@ -329,6 +330,16 @@ width: calc((100% - 72px) / 4);
   clip: rect(0 0 0 0);
   overflow: hidden;
   
+}
+.icon-container {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 /* Section 3 */
@@ -473,7 +484,7 @@ width: calc((100% - 48px) / 3);
     opacity: 0px;
     object-fit: cover;
 }
-
+ 
 .list-container-width:hover{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -517,12 +528,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   text-align: center;
   margin-bottom: 8px;
 }
-
-.item-role {
-  text-align: center;
-}
-
-
 
 .img-list {
   position: relative;

@@ -92,7 +92,8 @@ ul {
 }
 
 .contacts-us {
-  font-style: normal align-items: flex-end;
+  font-style: normal; 
+  align-items: flex-end;
 }
 
 .top-menu {
